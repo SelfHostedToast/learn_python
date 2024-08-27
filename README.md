@@ -4,4 +4,4 @@ This repository is home to projects I make while learning Python. I am using the
 
 ## Current Page : 175 of 554
 
-### Functions
+### Current Topic : Functions
