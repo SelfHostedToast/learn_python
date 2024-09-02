@@ -31,5 +31,9 @@ def show_completed_models(completed_models):
 unprinted_designs = ['phone case', 'robot pendant', 'dodecahedron']
 completed_models = []
 
+# The code below will prime a copy of the unprinted designs list so theat the original may still be referenced.
+# print_models(unprinted_designs[:], completed_models)
 print_models(unprinted_designs, completed_models)
 show_completed_models(completed_models)
+
+print(unprinted_designs)
