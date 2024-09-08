@@ -23,11 +23,7 @@ class Admin(User):
 
     def show_privileges(self):
         print(f'\n{self.first_name} can perform the following actions:')
-        if Admin:
-            for privilege in self.privileges:
-                print(f"\t-{privilege}")
-        else:
-            for privilege in self.privileges:
+        for privilege in self.privileges:
                 print(f"\t-{privilege}")
 
 dom = Admin('Dominick', 'Smith', 'Carrollton', 23)
