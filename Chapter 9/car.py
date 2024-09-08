@@ -35,4 +35,4 @@ my_dream_car.read_odometer()
 
 # Using our new update_odometer() method, we update the mileage reading attribute value
 my_dream_car.update_odometer(7)
-my_dream_car.read_odometer()for i in range(0,500):
+my_dream_car.read_odometer()
