@@ -1,6 +1,7 @@
 # 9-11 Imported Admin
-
-from admin import Privileges, Admin, User
+from user_class import User
+from admin import Admin
+from privs_class import Privileges
 
 super_user = Admin('John', 'Doe', 'Unknown', '0')
 
