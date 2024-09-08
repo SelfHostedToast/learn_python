@@ -9,9 +9,12 @@ class User:
         
     def describe_user(self):
         print(f"----User information for {self.first_name} {self.last_name}----")
-        user_info = [{self.first_name}, {self.last_name}, {self.city}, {self.age}]
-        for info in user_info:
-            print(info)
+        user_info = {'First Name' : {self.first_name},
+        'Last Name' : {self.last_name},
+        'City' : {self.city},
+        'Age' : {self.age}}
+        for info_type, info in user_info.items():
+            print(f'{info_type} : {info}')
     
     def greet_user(self):
         print(f"\nGreetings {self.first_name} {self.last_name}!\n")
@@ -34,14 +37,13 @@ class Privileges():
                 print(f"\t-{privilege}")
 
 user_1 = Admin('Dominick', 'Smith', 'Carrollton', 23)
-print(f'\n{user_1.first_name} can perform the following actions:')
-user_1.privilege.show_privileges()
-
 user_2 = User('Johnny', 'Ortiz', 'Oak Point', 24)
-print(f'\n{user_2.first_name} can perform the following actions:')
-user_2.privilege.show_privileges()
-
 user_3 = User('Jacob', 'Castillo', 'Dallas', 25)
-print(f'\n{user_3.first_name} can perform the following actions:')
-user_3.privilege.show_privileges()
 
+web_users = [user_1, user_2, user_3]
+
+for web_user in web_users:
+    web_user.greet_user()
+    web_user.describe_user()
+    print(f'\n{web_user.first_name} can perform the following actions:')
+    web_user.privilege.show_privileges()
