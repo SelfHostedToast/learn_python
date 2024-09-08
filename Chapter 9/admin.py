@@ -40,10 +40,10 @@ user_1 = Admin('Dominick', 'Smith', 'Carrollton', 23)
 user_2 = User('Johnny', 'Ortiz', 'Oak Point', 24)
 user_3 = User('Jacob', 'Castillo', 'Dallas', 25)
 
-web_users = [user_1, user_2, user_3]
+# web_users = [user_1, user_2, user_3]
 
-for web_user in web_users:
-    web_user.greet_user()
-    web_user.describe_user()
-    print(f'\n{web_user.first_name} can perform the following actions:')
-    web_user.privilege.show_privileges()
+# for web_user in web_users:
+#     web_user.greet_user()
+#     web_user.describe_user()
+#     print(f'\n{web_user.first_name} can perform the following actions:')
+#     web_user.privilege.show_privileges()
