@@ -43,13 +43,13 @@ ticket_numbers()
 
 playing = True
 
+print("Trying your luck...")
+
 while playing == True:
     ticket_letters()
     ticket_numbers()
     my_lotto_list()
     shuffle(my_lotto)
-    print(f"Your lucky ticket is : {my_lotto}")
-    print(f"The lottery numbers are: {winning_lotto}")  
     if my_lotto == winning_lotto:
         print("\n------WINNER------")
         print(f"You win! The ticket matches!\nIt took {attempts} attempts!")
