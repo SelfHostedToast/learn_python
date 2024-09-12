@@ -38,8 +38,8 @@ attempts = 0
 choose_letters()
 choose_numbers()
 winning_picks()
-ticket_letters()
-ticket_numbers()
+# ticket_letters()
+# ticket_numbers()
 
 playing = True
 

@@ -2,6 +2,6 @@
 
 This repository is home to projects I make while learning Python. I am using the Python Crash Course Textbook provided by Eric Matthes
 
-## Current Page : 221 of 554
+## Current Page : 225 of 554
 
-### Current Topic : Files and Exceptions
+### Current Topic : Accessing a File's Lines
