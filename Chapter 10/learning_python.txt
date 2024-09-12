@@ -1,0 +1,6 @@
+I have learned the following Python concepts:
+    - OOP / Classes
+    - Conditionals
+    - Loops
+    - File Operations
+These concepts have helped me build unique applications in the Python Programming Language
