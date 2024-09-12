@@ -6,9 +6,8 @@ contents = path.read_text()
 
 print(contents.replace("Python", "C"))
 
-lines = contents.splitlines()
 summary = ''
-for line in lines:
+for line in contents.splitlines():
     summary += line
 
 # print(summary)
